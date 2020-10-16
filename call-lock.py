@@ -1,4 +1,5 @@
-import os,sys,requests,time,json,re                      
+import os,sys,requests
+
 banner= """
 \033[31;1m<▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬>
  \033[32;1m[\033[1;96m•\033[1;90m] \033[32;1mAuthor    \033[1;91m: \033[31;1mFazul Boften
