@@ -1,7 +1,4 @@
 import os,sys,requests,time,json,re                      
-    from time import sleep
-    from requests import post
-except ImportError:
     print ("\033[1;97mModule:\033[1;91mNot Installing!!")
     sleep(1)
     print ("\033[1;97mInstall module...")
