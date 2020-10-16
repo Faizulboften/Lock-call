@@ -1,4 +1,18 @@
-import os,sys,time,requests
+import os,sys,requests,time,json,re                      
+    from time import sleep
+    from requests import post
+except ImportError:
+    print ("\033[1;97mModule:\033[1;91mNot Installing!!")
+    sleep(1)
+    print ("\033[1;97mInstall module...")
+    sleep(2)
+    os.system("pip install mechanize requests bs4")          
+    sleep(1)
+    print ("\033[1;97mModule:\033[1;92mSuccess Installing..!")
+def bersih():
+    os.system('clear')
+def balik():
+    os.system("python call-lock.py")
 banner= """
 \033[31;1m<▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬>
  \033[32;1m[\033[1;96m•\033[1;90m] \033[32;1mAuthor    \033[1;91m: \033[31;1mFazul Boften
